@@ -1,0 +1,13 @@
+[
+  {
+    "user_name": "dev_monk",
+    "user_country": "COUNTRY_USA",
+    "user_language": "LANGUAGE_SPANISH"
+  },
+  {
+    "user_name": "Rahul",
+    "user_country": "COUNTRY_INDIA",
+    "user_language": "LANGUAGE_HINDI"
+  },
+  { "user_name": "Shikhhar", "user_language": "LANGUAGE_ENGLISH" }
+]
