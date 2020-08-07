@@ -17,7 +17,7 @@ def send_message(message: Message):
     deliver_message_to_receiver(message)
 
 def store_message(message: Message):
-    print ('Message {} stored successfully'.format(message))
+    print ('Message "{}" stored successfully'.format(message))
 
 def check_for_offensive_content(message: Message):
     if (message.is_offensive()):

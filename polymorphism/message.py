@@ -76,7 +76,7 @@ class TextMessage(Message):
         return True
 
     def __str__(self):
-        return 'I am __str__ implemented inside TextMessage...'
+        return self.__message_content
 
 
 class ImageMessage(Message):
@@ -107,7 +107,7 @@ class ImageMessage(Message):
         return True
 
     def __str__(self):
-        print('I am __str__ implemented inside ImageMessage...')
+        return self.__image_metadata
 
 
 class VoiceMessage(Message):
@@ -127,4 +127,5 @@ class VoiceMessage(Message):
         self.__voice_quality_in_kbps = voice_quality
 
     def __str__(self):
-        print('I am __str__ implemented inside VoiceMessage...')
+        print('Similary, override __str__ in VoiceMessage...')
+    pass
